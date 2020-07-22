@@ -1,0 +1,421 @@
+html, body {
+  font-family: 'Karla', sans-serif;
+  letter-spacing: 0.5px;
+  width: 100%;
+  height: 100%;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-left: 7.5rem;
+  color: "black";
+}
+
+.row {
+  padding-top: 20px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.colored-section {
+  background-color: hsl(256, 26%, 20%);
+}
+
+.first-btn {
+  margin-left: 130px;
+  margin-bottom: 10rem;
+  padding-top: 1rem;
+}
+
+.big-pattern-right {
+  margin-left: 55rem;
+  height: auto;
+  width: 10rem;
+  position: absolute;
+  z-index: 1;
+}
+
+.big-pattern-left {
+  margin-top: 310px;
+  z-index: 1;
+  height: auto;
+  width: 100%;
+  position: absolute;
+}
+
+h2 {
+  color: white;
+}
+
+.big-heading-b {
+  margin-left: 15px;
+  padding-top: 2rem;
+  font-family: 'DM Serif Display';
+  font-weight: 400;
+  color: #000;
+}
+
+.third-btn {
+  padding-left: 320px;
+}
+
+.bottom-ribbon {
+  margin: 100px 140px 0 128px;
+}
+
+#little.col-lg-6 {
+  margin: 0;
+  padding: 0;
+}
+
+.last-line {
+  margin: 0 60px 0 140px;
+  background-color: hsl(273, 4%, 51%);
+}
+
+.fine-print {
+  margin: 20px 120px 10px 150px;
+}
+
+h1 {
+  font-family: 'DM Serif Display';
+  font-size: 480%;
+  color: white;
+}
+
+h6.invitation {
+  color: white;
+}
+
+.attribution {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .column-layout {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .column-right {
+    order: 1;
+    z-index: 0;
+  }
+
+  .navbar-brand {
+    margin-left: 0;
+  }
+
+  h1 {
+    font-family: 'DM Serif Display';
+    font-size: 380%;
+    color: white;
+  }
+
+  h6 {
+    padding: 1.3rem 0.4rem;
+    font-family: 'Karla';
+    font-size: 130%;
+    color: hsl(0, 0%, 98%);
+  }
+
+  .column-left {
+    text-align: center;
+    order: 3;
+  }
+
+  .big-pattern-left {
+    z-index: 0;
+  }
+
+  .headline {
+    width: 90%;
+  }
+
+  .btn {
+    margin-bottom: 56px;
+  }
+
+  .big-heading {
+    margin-top: 5rem;
+    margin-left: 0;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+  }
+
+  /* it exists in html */
+  .heading-text {
+    color: white;
+    text-align: center;
+  }
+
+  .family-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .big-pattern-right {
+    display: none;
+  }
+
+  .white-section {
+    text-align: center;
+  }
+
+  .icon-white-section {
+    padding: 0 0 20px 0px;
+    width: 20%;
+    height: auto;
+  }
+
+  .container-ribbon {
+    display: flex;
+  }
+
+  .ribbon {
+    margin: 0 auto;
+    height: 240px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: hsl(270, 9%, 17%)
+  }
+
+  .ribbon-text {
+    order: 1;
+  }
+
+  .ribbon-button {
+    order: 2;
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+    font-family: 'DM Serif Display';
+  }
+
+  .small-logo {
+    text-align: center;
+    padding-top: 8rem;
+  }
+
+  .social-media-icons {
+    text-align: center;
+    padding-top: 1.5rem;
+  }
+
+  .container-last {
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+  }
+
+  h6 {
+    font-family: 'Karla';
+    color: hsl(216, 30%, 68%);
+  }
+
+  .information {
+    padding-bottom: 0;
+  }
+
+  .fine-print {
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .company {
+    order: 1;
+  }
+
+  .help {
+    order: 2;
+  }
+
+  .contact {
+    order: 3;
+  }
+
+  .other {
+    order: 4;
+  }
+}
+
+@media (min-width: 769px) {
+  .column-layout {
+    display: flex;
+    flex-direction: row;
+    height: 37em;
+  }
+
+  .column-right {
+    order: 2;
+  }
+
+  .white-section {
+    margin: 16rem 4rem 10rem 9rem;
+  }
+
+  .column-left {
+    text-align: left;
+  }
+
+  .short-line-b {
+    background-color: hsl(216, 30%, 68%);
+    margin-left: 0;
+    margin-top: 5.4em;
+    border-top: 0px solid #fff;
+    width: 175px;
+  }
+
+  .column-left {
+    order: 1;
+    margin-left: 8.5rem;
+  }
+
+  .big-heading {
+    padding-top: 2rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: white;
+  }
+
+  .heading-text {
+    margin-left: 130px;
+    color: white;
+  }
+
+  .family-image {
+    margin-right: 8.5rem;
+    margin-top: 5.4rem;
+  }
+
+  .big-pattern-right {
+    right: 278px;
+  }
+
+  .ordered,
+  .container-small-logo {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .snappy-process {
+    order: 1;
+  }
+
+  .affordable-prices {
+    order: 2;
+  }
+
+  .people-first {
+    order: 3;
+  }
+
+  .afforable-prices-text {
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+  }
+
+  .small-heading.snappy,
+  .small-heading.people {
+    padding-top: 14px;
+  }
+
+  .affordable-prices>* {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .ribbon-text {
+    flex: 1;
+  }
+
+  .ribbon-button {
+    flex: 1;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 200%;
+    color: white;
+  }
+
+  .ribbon {
+    margin: 4rem 140px 0 140px;
+    height: 240px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: hsl(270, 9%, 17%)
+  }
+
+  .ribbon-heading {
+    font-family: 'DM Serif Display';
+    padding-left: 50px;
+    font-size: 350%;
+    color: #fff
+  }
+
+  .small-logo {
+    flex: 1;
+    padding-top: 1.9rem;
+    width: 20%;
+    height: auto;
+  }
+
+  .last-line {
+    margin: 0 60px 0 60px;
+    background-color: hsl(273, 4%, 51%);
+  }
+
+  .social-media-icons {
+    flex: 1;
+    text-align: right;
+    padding-top: 3.5rem;
+    padding-bottom: 2rem;
+  }
+
+  .container-small-logo {
+    margin: 7rem 4.9rem 1rem 8.7rem;
+  }
+
+  .container-last {
+    display: flex;
+    flex-direction: row;
+  }
+
+  h6 {
+    font-family: 'Karla';
+    color: hsl(216, 30%, 68%);
+  }
+
+  .company {
+    flex: 1;
+  }
+
+  .help {
+    flex: 1;
+  }
+
+  .contact {
+    flex: 1;
+  }
+
+  .other {
+    flex: 1;
+  }
+}
